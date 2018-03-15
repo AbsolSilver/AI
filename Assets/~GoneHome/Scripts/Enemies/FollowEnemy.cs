@@ -13,9 +13,14 @@ namespace GoneHome
 
         private NavMeshAgent agent;
 
+        private Vector3 spawnPoint;
+
         // Use this for initialization
         void Start()
         {
+            // Making a copy of the starting position
+            spawnPoint = transform.position;
+
             agent = GetComponent<NavMeshAgent>();
         }
 
@@ -23,6 +28,16 @@ namespace GoneHome
         void Update()
         {
             agent.SetDestination(target.position);
+        }
+
+        public void Reset()
+        {
+            // Disable to navmeshagent
+            agent.enabled = false;
+            // Reset position of player to starting position
+            transform.position = spawnPoint;
+            // Enable the navmeshagent
+            agent.enabled = true;
         }
     }
 }
