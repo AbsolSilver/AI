@@ -33,7 +33,7 @@ namespace SunnyLand
             }
             else
             {
-                player.Uncrouch();
+                player.UnCrouch();
             }
         }
 
@@ -46,7 +46,7 @@ namespace SunnyLand
         }
     }
 }
-    }
+    
 
        
 
