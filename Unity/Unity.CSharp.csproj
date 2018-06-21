@@ -138,6 +138,8 @@
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TileObject.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TiledMap.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TmxObject.cs" />
+    <Compile Include="Assets\~Billiards\Scripts\Ball.cs" />
+    <Compile Include="Assets\~Billiards\Scripts\Cue.cs" />
     <Compile Include="Assets\~GoneHome\Scripts\Death.cs" />
     <Compile Include="Assets\~GoneHome\Scripts\DestroyOnLifeTime.cs" />
     <Compile Include="Assets\~GoneHome\Scripts\Enemies\FollowEnemy.cs" />
@@ -145,8 +147,6 @@
     <Compile Include="Assets\~GoneHome\Scripts\GameManager.cs" />
     <Compile Include="Assets\~GoneHome\Scripts\Goal.cs" />
     <Compile Include="Assets\~GoneHome\Scripts\Player.cs" />
-    <Compile Include="Assets\~SunnyLand\Scripts\PlayerController.cs" />
-    <Compile Include="Assets\~SunnyLand\Scripts\UserInput.cs" />
     <Compile Include="Assets\~TowerDefense\Scripts\Cameras\MouseOrbit.cs" />
     <Compile Include="Assets\~TowerDefense\Scripts\Enemies\AIAgent.cs" />
     <Compile Include="Assets\~TowerDefense\Scripts\Enemies\Enemy.cs" />

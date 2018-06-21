@@ -29,8 +29,8 @@ namespace TowerDefense
                 instance = Instantiate(prefabs[currentTower]);
                 instance.transform.SetParent(transform);
 
-                tower = instance.transform.Find("Tower");
-                hologram = instance.transform.Find("Hologram");
+                tower = instance.transform.FindChild("Tower");
+                hologram = instance.transform.FindChild("Hologram");
 
                 tower.gameObject.SetActive(false);
                 hologram.gameObject.SetActive(false);
@@ -69,7 +69,7 @@ namespace TowerDefense
                     GameObject instance = instances[currentTower];
                     instance.transform.position = p.transform.position;
 
-                    if (Input.GetMouseButton(0))
+                    if (Input.GetMouseButtonDown(0))
                     {
                         p.isPlaced = true;
 
